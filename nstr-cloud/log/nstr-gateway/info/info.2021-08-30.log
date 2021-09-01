@@ -1,0 +1,5 @@
+2021-08-30 14:32:18 INFO  reactor-http-nio-4 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/oauth/token --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/oauth/token，转发时间：2021-08-30T14:32:18.085272600
+2021-08-30 14:32:21 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/menu --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/menu，转发时间：2021-08-30T14:32:21.770389700
+2021-08-30 14:32:22 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://127.0.0.1:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-30T14:32:22.400966700
+2021-08-30 14:32:30 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/menu --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/menu，转发时间：2021-08-30T14:32:30.654720800
+2021-08-30 14:32:30 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://127.0.0.1:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-30T14:32:30.663715500

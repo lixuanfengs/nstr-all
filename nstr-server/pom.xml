@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.nstr.cloud</groupId>
+        <artifactId>nstr-cloud</artifactId>
+        <version>2.2-RELEASE</version>
+        <relativePath>../nstr-cloud/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>nstr-server</artifactId>
+    <version>2.2-RELEASE</version>
+    <name>nstr-server</name>
+    <description>仙人球微服务-资源服务</description>
+    <packaging>pom</packaging>
+
+
+    <modules>
+        <module>nstr-search</module>
+        <module>nstr-instrument</module>
+        <module>nstr-test</module>
+        <module>renren-generator</module>
+        <module>nstr-system</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>${logstash-logback-encoder.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

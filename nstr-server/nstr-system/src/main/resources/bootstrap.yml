@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: nstr-system
+  cloud:
+    nacos:
+      config:
+        server-addr: ${nacos.url}:8848
+        group: DEFAULT_GROUP
+        prefix: nstr-system
+        file-extension: yaml
+        refresh-enabled: true
+      discovery:
+        server-addr: ${nacos.url}:8848

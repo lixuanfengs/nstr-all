@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nstr.cloud</groupId>
+    <artifactId>nstr-cloud</artifactId>
+    <version>2.2-RELEASE</version>
+    <packaging>pom</packaging>
+
+    <name>Nstr-Cloud</name>
+    <description>Nstr-Cloud：Spring Cloud，Spring Security OAuth2 微服务权限管理系统</description>
+
+    <modules>
+        <module>../nstr-auth</module>
+        <module>../nstr-common</module>
+        <module>../nstr-server</module>
+        <module>../nstr-gateway</module>
+        <module>../nstr-apm</module>
+        <!--<module>../febs-tx-manager</module>-->
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.7.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
+        <java.version>11</java.version>
+        <fastjson.version>1.2.76</fastjson.version>
+        <mysql.version>8.0.17</mysql.version>
+        <lombok.version>1.18.20</lombok.version>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <fastjson.version>1.2.76</fastjson.version>
+        <mybatis-plus.version>3.4.0</mybatis-plus.version>
+        <commons-pool2.version>2.10.0</commons-pool2.version>
+        <validation-api.version>2.0.1.Final</validation-api.version>
+        <hibernate-validator.version>7.0.1.Final</hibernate-validator.version>
+        <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+        <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
+        <spring-boot-admin-starter-client.version>2.3.1</spring-boot-admin-starter-client.version>
+        <logstash-logback-encoder.version>6.6</logstash-logback-encoder.version>
+        <dynamic-datasource-spring-boot.version>3.4.0</dynamic-datasource-spring-boot.version>
+        <easy-captcha.version>1.6.2</easy-captcha.version>
+        <excelkit.version>2.0.72</excelkit.version>
+        <ip2region.version>1.7</ip2region.version>
+        <sentinel.version>1.6.2</sentinel.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

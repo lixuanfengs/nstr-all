@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.10:8848
+      config:
+        enabled: false
+  application:
+    name: nstr-search
+  thymeleaf:
+    cache: false
+
+server:
+  port: 1051
+
+

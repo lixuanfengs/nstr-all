@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nstr.search.dao.SingleInstrumentDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.nstr.search.entity.SingleInstrumentEntity" id="singleInstrumentMap">
+        <result property="id" column="id"/>
+        <result property="cname" column="cname"/>
+        <result property="ename" column="ename"/>
+        <result property="ins" column="ins"/>
+        <result property="insCode" column="ins_code"/>
+        <result property="instrBelongsType" column="instr_belongs_type"/>
+        <result property="instrBelongsId" column="instr_belongs_id"/>
+        <result property="instrBelongsCenterId" column="instr_belongs_center_id"/>
+        <result property="instrBelongsDeviceId" column="instr_belongs_device_id"/>
+        <result property="instrBelongsUnitId" column="instr_belongs_unit_id"/>
+        <result property="instrBelongsName" column="instr_belongs_name"/>
+        <result property="innerId" column="inner_id"/>
+        <result property="instrCategory" column="instr_category"/>
+        <result property="instrSource" column="instr_source"/>
+        <result property="instrSupervise" column="instr_supervise"/>
+        <result property="worth" column="worth"/>
+        <result property="nation" column="nation"/>
+        <result property="manufacturer" column="manufacturer"/>
+        <result property="beginDate" column="begin_date"/>
+        <result property="type" column="type"/>
+        <result property="instrVersion" column="instr_version"/>
+        <result property="technical" column="technical"/>
+        <result property="function" column="function"/>
+        <result property="subject" column="subject"/>
+        <result property="serviceContent" column="service_content"/>
+        <result property="achievement" column="achievement"/>
+        <result property="image" column="image"/>
+        <result property="status" column="status"/>
+        <result property="requirement" column="requirement"/>
+        <result property="fee" column="fee"/>
+        <result property="serviceUrl" column="service_url"/>
+        <result property="locationCode" column="location_code"/>
+        <result property="location" column="location"/>
+        <result property="contact" column="contact"/>
+        <result property="phone" column="phone"/>
+        <result property="email" column="email"/>
+        <result property="address" column="address"/>
+        <result property="postalcode" column="postalcode"/>
+        <result property="instruType" column="instru_type"/>
+        <result property="lng" column="lng"/>
+        <result property="lat" column="lat"/>
+        <result property="dataHint" column="data_hint"/>
+        <result property="year" column="year"/>
+        <result property="auditStatus" column="audit_status"/>
+        <result property="auditReason" column="audit_reason"/>
+        <result property="flag" column="flag"/>
+        <result property="shareMode" column="share_mode"/>
+        <result property="filltime" column="fillTime"/>
+        <result property="reportType" column="report_type"/>
+        <result property="insertTime" column="insert_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="auditTime" column="audit_time"/>
+        <result property="runMachine" column="run_machine"/>
+        <result property="serviceMachine" column="service_machine"/>
+        <result property="serviceIncome" column="service_income"/>
+        <result property="addResultTime" column="add_result_time"/>
+        <result property="funds" column="funds"/>
+        <result property="insideDepart" column="inside_depart"/>
+        <result property="resourceName" column="resource_name"/>
+        <result property="ifUpdateStatus" column="if_update_status"/>
+        <result property="singleRemarkOne" column="single_remark_one"/>
+        <result property="singleRemarkTwo" column="single_remark_two"/>
+        <result property="remarkFlag" column="remark_flag"/>
+        <result property="interfaceTime" column="interface_time"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>nstr-common</artifactId>
+        <groupId>com.nstr.cloud</groupId>
+        <version>2.2-RELEASE</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>nstr-common-security-starter</artifactId>
+    <name>Nstr-Common-Security-Starter</name>
+    <description>Nstr-Common-Security-Starter安全模块</description>
+
+
+    <properties>
+        <java.version>11</java.version>
+        <nstr-cloud.version>2.2-RELEASE</nstr-cloud.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.nstr.cloud</groupId>
+            <artifactId>nstr-common-core</artifactId>
+            <version>${nstr-cloud.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+</project>

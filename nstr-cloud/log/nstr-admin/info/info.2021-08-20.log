@@ -1,0 +1,245 @@
+2021-08-20 11:34:23 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 11:34:43 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 11:34:44 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 11:34:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 11:34:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 11:34:45 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 11:34:45 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 11:34:45 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 11:34:45 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1954 ms
+2021-08-20 11:34:45 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 2ea01a36-334d-4751-8a9a-c3f9ce58ecf6
+
+2021-08-20 11:34:45 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e4894d, org.springframework.security.web.context.SecurityContextPersistenceFilter@722787b5, org.springframework.security.web.header.HeaderWriterFilter@216f01, org.springframework.security.web.authentication.logout.LogoutFilter@19d53ab4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@74a58a06, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@28e94c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8b41ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77fc19cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1de5cc88, org.springframework.security.web.session.SessionManagementFilter@1e721583, org.springframework.security.web.access.ExceptionTranslationFilter@4044589a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b7d2d51]
+2021-08-20 11:34:45 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 11:34:48 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 11:34:48 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 11:34:48 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 11:34:49 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 8.778 seconds (JVM running for 12.402)
+2021-08-20 11:34:50 INFO  RMI TCP Connection(5)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 11:34:50 INFO  RMI TCP Connection(5)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 11:34:50 INFO  RMI TCP Connection(5)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 8 ms
+2021-08-20 13:15:14 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 13:20:56 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 13:20:58 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 13:20:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 13:20:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 13:20:58 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 13:20:58 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 13:20:58 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 13:20:58 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1859 ms
+2021-08-20 13:20:58 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 626f401a-51b7-4515-aa9d-3b392074431e
+
+2021-08-20 13:20:58 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ef5dd23, org.springframework.security.web.context.SecurityContextPersistenceFilter@1883871b, org.springframework.security.web.header.HeaderWriterFilter@3a45afd4, org.springframework.security.web.authentication.logout.LogoutFilter@2049e582, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e00837f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55adcf9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52f9e8bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3271ec2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@163e8949, org.springframework.security.web.session.SessionManagementFilter@74431b9c, org.springframework.security.web.access.ExceptionTranslationFilter@795f6681, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32a8ca06]
+2021-08-20 13:20:59 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 13:21:01 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 13:21:02 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 13:21:02 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 13:21:03 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 8.232 seconds (JVM running for 9.906)
+2021-08-20 13:21:03 INFO  RMI TCP Connection(7)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 13:21:03 INFO  RMI TCP Connection(7)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 13:21:03 INFO  RMI TCP Connection(7)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2021-08-20 14:06:38 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 14:11:45 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 14:11:45 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 14:11:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 14:11:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 14:11:45 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 14:11:45 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 14:11:45 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 14:11:45 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 933 ms
+2021-08-20 14:11:46 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 5523b1e2-b091-4d3b-bd8c-b78de821232f
+
+2021-08-20 14:11:46 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ef5dd23, org.springframework.security.web.context.SecurityContextPersistenceFilter@1883871b, org.springframework.security.web.header.HeaderWriterFilter@3a45afd4, org.springframework.security.web.authentication.logout.LogoutFilter@2049e582, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e00837f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55adcf9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52f9e8bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3271ec2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@163e8949, org.springframework.security.web.session.SessionManagementFilter@74431b9c, org.springframework.security.web.access.ExceptionTranslationFilter@795f6681, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32a8ca06]
+2021-08-20 14:11:46 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 14:11:47 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 14:11:47 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 14:11:47 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 14:11:48 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 4.615 seconds (JVM running for 5.48)
+2021-08-20 14:11:48 INFO  RMI TCP Connection(2)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 14:11:48 INFO  RMI TCP Connection(2)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 14:11:48 INFO  RMI TCP Connection(2)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 5 ms
+2021-08-20 14:11:54 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 14:12:00 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 14:12:01 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 14:12:01 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 14:12:01 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 14:12:01 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 14:12:01 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 14:12:01 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 14:12:01 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1021 ms
+2021-08-20 14:12:01 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: e8dbc756-848c-4e6a-ad5e-c158a40c655a
+
+2021-08-20 14:12:01 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ef5dd23, org.springframework.security.web.context.SecurityContextPersistenceFilter@1883871b, org.springframework.security.web.header.HeaderWriterFilter@3a45afd4, org.springframework.security.web.authentication.logout.LogoutFilter@2049e582, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e00837f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55adcf9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52f9e8bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3271ec2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@163e8949, org.springframework.security.web.session.SessionManagementFilter@74431b9c, org.springframework.security.web.access.ExceptionTranslationFilter@795f6681, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32a8ca06]
+2021-08-20 14:12:01 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 14:12:03 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 14:12:03 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 14:12:03 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 14:12:03 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 4.948 seconds (JVM running for 5.94)
+2021-08-20 14:12:04 INFO  RMI TCP Connection(2)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 14:12:04 INFO  RMI TCP Connection(2)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 14:12:04 INFO  RMI TCP Connection(2)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 6 ms
+2021-08-20 14:12:30 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 14:35:58 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 14:35:59 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 14:35:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 14:35:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 14:35:59 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 14:35:59 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 14:35:59 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 14:35:59 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1568 ms
+2021-08-20 14:36:00 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: cc7bbfec-0959-4cb4-9250-43acf8eeff3c
+
+2021-08-20 14:36:00 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7aae1170, org.springframework.security.web.context.SecurityContextPersistenceFilter@f2fb225, org.springframework.security.web.header.HeaderWriterFilter@66d3b881, org.springframework.security.web.authentication.logout.LogoutFilter@4aa22cc2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@799c8758, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@635ff2a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e0a9b1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3070f3e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ef5dd23, org.springframework.security.web.session.SessionManagementFilter@762a10b6, org.springframework.security.web.access.ExceptionTranslationFilter@1cba0321, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cd8d029]
+2021-08-20 14:36:00 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 14:36:03 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 14:36:03 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 14:36:03 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 14:36:04 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 8.032 seconds (JVM running for 9.124)
+2021-08-20 14:36:04 INFO  RMI TCP Connection(8)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 14:36:04 INFO  RMI TCP Connection(8)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 14:36:04 INFO  RMI TCP Connection(8)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 7 ms
+2021-08-20 14:54:33 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 15:41:29 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 15:41:32 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 15:41:32 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 15:41:32 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:41:32 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 15:41:32 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 15:41:33 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 15:41:33 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3318 ms
+2021-08-20 15:41:33 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 3796fb40-f61c-4ef7-b4e4-d4c39b1f99d2
+
+2021-08-20 15:41:34 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a318745, org.springframework.security.web.context.SecurityContextPersistenceFilter@70f5f6c7, org.springframework.security.web.header.HeaderWriterFilter@76aab1e3, org.springframework.security.web.authentication.logout.LogoutFilter@77fa509a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3554de46, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@135fb22d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cff1930, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52bef30b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d44025b, org.springframework.security.web.session.SessionManagementFilter@432e242d, org.springframework.security.web.access.ExceptionTranslationFilter@2a64cb1f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22e8f04c]
+2021-08-20 15:41:34 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 15:41:38 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 15:41:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:41:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 15:41:38 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 12.668 seconds (JVM running for 15.956)
+2021-08-20 15:41:39 INFO  RMI TCP Connection(7)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 15:41:39 INFO  RMI TCP Connection(7)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 15:41:39 INFO  RMI TCP Connection(7)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 14 ms
+2021-08-20 15:48:15 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 15:48:25 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 15:48:28 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 15:48:29 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 15:48:29 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:48:29 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 15:48:29 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 15:48:29 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 15:48:29 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3870 ms
+2021-08-20 15:48:30 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 8d13372d-63ed-4e6a-a5b6-b3a0d78c220b
+
+2021-08-20 15:48:30 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41d34a11, org.springframework.security.web.context.SecurityContextPersistenceFilter@197d6cc9, org.springframework.security.web.header.HeaderWriterFilter@33ef701e, org.springframework.security.web.authentication.logout.LogoutFilter@116f823c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71443983, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2d44025b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25c3a441, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5100fe55, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a58d00a, org.springframework.security.web.session.SessionManagementFilter@814b60b, org.springframework.security.web.access.ExceptionTranslationFilter@6b5f91a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@574f89bf]
+2021-08-20 15:48:31 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 15:48:35 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 15:48:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:48:35 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 15:48:37 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 15.946 seconds (JVM running for 19.483)
+2021-08-20 15:48:39 INFO  RMI TCP Connection(13)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 15:48:39 INFO  RMI TCP Connection(13)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 15:48:39 INFO  RMI TCP Connection(13)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 15 ms
+2021-08-20 15:58:07 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:06:02 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 16:06:05 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 16:06:05 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 16:06:05 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:06:05 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 16:06:05 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 16:06:05 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 16:06:05 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3352 ms
+2021-08-20 16:06:06 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 68928f9f-6667-4a00-b8a0-774cd341ff43
+
+2021-08-20 16:06:06 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18f6ee8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@537360e3, org.springframework.security.web.header.HeaderWriterFilter@3644d12a, org.springframework.security.web.authentication.logout.LogoutFilter@26aecf31, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4eb34397, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@16ea56ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ec25389, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2057d8ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a318745, org.springframework.security.web.session.SessionManagementFilter@4f9e32f2, org.springframework.security.web.access.ExceptionTranslationFilter@408f3054, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c4fac3a]
+2021-08-20 16:06:07 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:06:10 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 16:06:11 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:06:11 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 16:06:12 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 13.428 seconds (JVM running for 16.698)
+2021-08-20 16:06:13 INFO  RMI TCP Connection(9)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 16:06:13 INFO  RMI TCP Connection(9)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 16:06:13 INFO  RMI TCP Connection(9)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 18 ms
+2021-08-20 16:13:49 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:13:56 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 16:13:57 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 16:13:57 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 16:13:57 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:13:57 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 16:13:57 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 16:13:57 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 16:13:57 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1524 ms
+2021-08-20 16:13:58 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 5e1d330b-ae47-40d8-9c35-605cb0fc5bf3
+
+2021-08-20 16:13:58 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33a1bb90, org.springframework.security.web.context.SecurityContextPersistenceFilter@357f0cc9, org.springframework.security.web.header.HeaderWriterFilter@5d52a17b, org.springframework.security.web.authentication.logout.LogoutFilter@4ec25389, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@591bff1d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65dff28b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5713e261, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6236beac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@520b547c, org.springframework.security.web.session.SessionManagementFilter@4528a871, org.springframework.security.web.access.ExceptionTranslationFilter@4cbf1c30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@271df4c0]
+2021-08-20 16:13:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:14:00 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 16:14:00 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:14:00 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 16:14:00 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 6.412 seconds (JVM running for 8.962)
+2021-08-20 16:14:01 INFO  RMI TCP Connection(1)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 16:14:01 INFO  RMI TCP Connection(1)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 16:14:01 INFO  RMI TCP Connection(1)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2021-08-20 16:14:33 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 16:14:34 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3fc2e10e-05ab-3e00-8aea-da16988b2349
+2021-08-20 16:14:34 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 16:14:34 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:14:34 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 16:14:34 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 16:14:34 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 16:14:34 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1576 ms
+2021-08-20 16:14:35 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 80fa1260-3eed-43ad-b83a-33343f9b99de
+
+2021-08-20 16:14:35 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a58d00a, org.springframework.security.web.context.SecurityContextPersistenceFilter@8caffbd, org.springframework.security.web.header.HeaderWriterFilter@1fd1deed, org.springframework.security.web.authentication.logout.LogoutFilter@7f5a5ef3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@105d2c27, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6fb8cfa7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2057d8ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ef97efc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53af65eb, org.springframework.security.web.session.SessionManagementFilter@515a897c, org.springframework.security.web.access.ExceptionTranslationFilter@375dc95c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fbc704a]
+2021-08-20 16:14:35 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:14:37 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 16:14:37 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:14:37 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 16:14:37 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 6.798 seconds (JVM running for 9.552)
+2021-08-20 16:14:38 INFO  RMI TCP Connection(3)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 16:14:38 INFO  RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 16:14:38 INFO  RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2021-08-20 16:36:35 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:36:46 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-20 16:36:46 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-20 16:36:46 INFO  main com.alibaba.nacos.client.config.utils.JvmUtil isMultiInstance:false
+2021-08-20 16:36:46 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-nstr-admin.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-nstr-admin,DEFAULT_GROUP'}]
+2021-08-20 16:36:46 INFO  main com.nstr.admin.NstrAdminApplication No active profile set, falling back to default profiles: default
+2021-08-20 16:36:47 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=5dd51688-d1e3-3a63-81ff-6f362d5658ac
+2021-08-20 16:36:47 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1820 (http)
+2021-08-20 16:36:47 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1820"]
+2021-08-20 16:36:47 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 16:36:47 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-20 16:36:47 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 16:36:47 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1731 ms
+2021-08-20 16:36:48 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58581ab6, org.springframework.security.web.context.SecurityContextPersistenceFilter@62e507c6, org.springframework.security.web.header.HeaderWriterFilter@4b6c5fa2, org.springframework.security.web.authentication.logout.LogoutFilter@50c8a382, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@40f40221, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39595a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@772357e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@510cefb6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cd3cf6b, org.springframework.security.web.session.SessionManagementFilter@407339e5, org.springframework.security.web.access.ExceptionTranslationFilter@61a809ee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c6c87fa]
+2021-08-20 16:36:48 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:36:50 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-20 16:36:50 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1820"]
+2021-08-20 16:36:50 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1820 (http) with context path ''
+2021-08-20 16:36:51 INFO  main com.nstr.admin.NstrAdminApplication Started NstrAdminApplication in 7.376 seconds (JVM running for 10.132)
+2021-08-20 16:36:51 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] nstr-admin+DEFAULT_GROUP
+2021-08-20 16:36:51 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=nstr-admin, group=DEFAULT_GROUP, cnt=1
+2021-08-20 16:36:51 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] nstr-admin.yaml+DEFAULT_GROUP
+2021-08-20 16:36:51 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=nstr-admin.yaml, group=DEFAULT_GROUP, cnt=1
+2021-08-20 16:36:51 INFO  RMI TCP Connection(1)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 16:36:51 INFO  RMI TCP Connection(1)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 16:36:51 INFO  RMI TCP Connection(1)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 14 ms

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nstr-auth" />
+        <module name="nstr-search" />
+        <module name="nstr-common-security-starter" />
+        <module name="nstr-common-core" />
+        <module name="nstr-system" />
+        <module name="nstr-test" />
+        <module name="nstr-admin" />
+        <module name="renren-generator" />
+        <module name="nstr-gateway" />
+        <module name="nstr-instrument" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nstr-admin" target="1.8" />
+      <module name="nstr-apm" target="1.8" />
+      <module name="nstr-auth" target="1.8" />
+      <module name="nstr-cloud" target="1.8" />
+      <module name="nstr-common" target="1.8" />
+      <module name="nstr-common-core" target="1.8" />
+      <module name="nstr-common-security-starter" target="1.8" />
+      <module name="nstr-gateway" target="1.8" />
+      <module name="nstr-instrument" target="1.8" />
+      <module name="nstr-search" target="1.8" />
+      <module name="nstr-server" target="1.8" />
+      <module name="nstr-system" target="1.8" />
+      <module name="nstr-test" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nstr-admin" options="-parameters" />
+      <module name="nstr-auth" options="-parameters" />
+      <module name="nstr-common" options="" />
+      <module name="nstr-common-core" options="-parameters" />
+      <module name="nstr-common-security-starter" options="-parameters" />
+      <module name="nstr-gateway" options="-parameters" />
+      <module name="nstr-instrument" options="-parameters" />
+      <module name="nstr-search" options="-parameters" />
+      <module name="nstr-system" options="-parameters" />
+      <module name="nstr-test" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

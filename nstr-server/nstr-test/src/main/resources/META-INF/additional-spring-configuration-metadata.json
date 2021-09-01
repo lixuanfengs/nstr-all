@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "hystrix.shareSecurityContext",
+      "type": "java.lang.String",
+      "description": "Description for hystrix.shareSecurityContext."
+  }
+] }

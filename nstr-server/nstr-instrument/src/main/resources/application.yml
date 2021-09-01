@@ -1,0 +1,73 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.10:8848
+      config:
+        enabled: false
+  application:
+    name: nstr-instrument
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.107:3307/nstr_es
+    username: root
+    password: root
+  ##springboot-admin 监控系统
+  boot:
+    admin:
+      client:
+        url: http://localhost:1820
+        username: nstr
+        password: 123456
+info:
+  app:
+    name: ${spring.application.name}
+    description: "@project.description@"
+    version: "@project.version@"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+  endpoint:
+    health:
+      show-details: always
+
+security:
+  oauth2:
+    resource:
+      id: ${spring.application.name}
+      user-info-uri: http://localhost:88/auth/user
+
+server:
+  port: 1000
+
+#配置扫描路径，主键自增，sql日志打印
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    com.nstr.instrument: info  # 系统调优
+    org:
+      springframework:
+        cloud:
+          openfeign: debug
+
+#feign fallback
+feign:
+  hystrix:
+    enabled: true
+
+nstr:
+  cloud:
+    security:
+      enable: true
+      only-fetch-by-gateway: false
+      anon-uris: /actuator/**,/captcha,/login,/resource/**

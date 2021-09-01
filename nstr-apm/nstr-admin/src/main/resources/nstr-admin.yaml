@@ -1,0 +1,14 @@
+server:
+  port: 1820
+
+spring:
+  application:
+    name: nstr-admin
+  boot:
+    admin:
+      ui:
+        title: ${spring.application.name}
+  security:
+    user:
+      name: nstr
+      password: 123456

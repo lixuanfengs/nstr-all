@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../nstr-apm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-apm/nstr-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-common/nstr-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-common/nstr-common-security-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-server/nstr-instrument" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-server/nstr-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-server/nstr-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-server/nstr-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nstr-server/renren-generator" charset="UTF-8" />
+  </component>
+</project>

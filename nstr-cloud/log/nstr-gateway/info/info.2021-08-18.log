@@ -1,0 +1,802 @@
+2021-08-18 11:13:26 INFO  Thread-33 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 11:13:26 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 11:13:26 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 11:13:26 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 11:13:26 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 11:13:57 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 11:13:58 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=2ecaacd9-b9ec-3c1b-80e9-75152b85d753
+2021-08-18 11:13:58 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 11:13:58 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 11:13:58 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 11:13:58 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 11:13:58 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 11:13:59 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 11:13:59 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 11:13:59 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 11:13:59 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 11:14:00 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 11:14:01 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 11:14:01 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 7.012 seconds (JVM running for 10.852)
+2021-08-18 11:14:01 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 11:14:46 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 11:14:46 INFO  reactor-http-nio-6 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 11:14:46 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 11:14:46 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 11:14:46 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[192.168.1.216:1600],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1600;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@5e13ce6c
+2021-08-18 11:14:47 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 11:19:58 INFO  reactor-http-nio-1 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T11:19:58.380521300
+2021-08-18 11:20:01 INFO  reactor-http-nio-1 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T11:20:01.499818
+2021-08-18 11:20:12 INFO  reactor-http-nio-1 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/oauth/token --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/oauth/token，转发时间：2021-08-18T11:20:12.098926900
+2021-08-18 11:20:37 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T11:20:37.873445500
+2021-08-18 11:21:38 INFO  reactor-http-nio-3 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T11:21:38.226239800
+2021-08-18 11:21:54 INFO  reactor-http-nio-4 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T11:21:54.698361400
+2021-08-18 11:26:01 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T11:26:01.296008300
+2021-08-18 16:05:28 INFO  Thread-33 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 16:05:28 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 16:05:28 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 16:05:28 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 16:05:28 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 16:05:46 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 16:05:47 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=07089a35-a53a-37b4-9941-5a6e1f90cda4
+2021-08-18 16:05:47 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:05:47 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:05:47 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:05:47 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 16:05:47 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 16:05:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 16:05:49 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 16:05:49 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 16:05:49 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 16:05:50 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 16:05:50 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 16:05:50 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.71 seconds (JVM running for 6.893)
+2021-08-18 16:05:51 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 16:09:15 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:09:15 INFO  reactor-http-nio-6 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 16:09:15 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 16:09:15 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@6ee9bb30
+2021-08-18 16:11:32 INFO  Thread-33 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 16:11:32 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 16:11:32 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 16:11:32 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 16:11:32 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 16:37:13 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 16:37:22 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=07089a35-a53a-37b4-9941-5a6e1f90cda4
+2021-08-18 16:37:22 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:37:22 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:37:22 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:37:25 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 16:37:25 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 16:37:28 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 16:37:30 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 16:37:30 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 16:37:31 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 16:37:34 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 16:37:35 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 16:37:35 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 31.183 seconds (JVM running for 32.718)
+2021-08-18 16:37:39 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 16:40:03 INFO  reactor-http-nio-5 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:40:03 INFO  reactor-http-nio-5 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 16:40:03 INFO  reactor-http-nio-5 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 16:40:03 INFO  reactor-http-nio-5 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:40:03 INFO  reactor-http-nio-5 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[192.168.1.216:1600],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1600;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@17adef4b
+2021-08-18 16:40:03 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T16:40:03.166282900
+2021-08-18 16:40:04 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:40:26 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T16:40:26.942616500
+2021-08-18 16:43:25 INFO  reactor-http-nio-3 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T16:43:25.810171500
+2021-08-18 16:43:27 INFO  reactor-http-nio-3 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T16:43:27.594230500
+2021-08-18 16:43:46 INFO  reactor-http-nio-3 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/oauth/token --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/oauth/token，转发时间：2021-08-18T16:43:46.496935300
+2021-08-18 16:44:56 INFO  reactor-http-nio-3 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:44:56 INFO  reactor-http-nio-3 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-system instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-system,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 16:44:56 INFO  reactor-http-nio-3 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 16:44:56 INFO  reactor-http-nio-3 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:44:56 INFO  reactor-http-nio-3 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-system initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-system,current list of Servers=[192.168.1.216:1701],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1701;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@2fba97c7
+2021-08-18 16:44:56 INFO  reactor-http-nio-3 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T16:44:56.542218700
+2021-08-18 16:44:57 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:45:59 INFO  reactor-http-nio-3 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T16:45:59.385734200
+2021-08-18 16:45:59 INFO  reactor-http-nio-4 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T16:45:59.399345300
+2021-08-18 16:50:32 INFO  reactor-http-nio-3 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T16:50:32.376134400
+2021-08-18 16:50:32 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T16:50:32.390121100
+2021-08-18 16:58:44 INFO  Thread-33 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 16:58:47 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 16:58:47 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 16:58:47 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 16:58:47 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 16:59:05 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 16:59:06 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=b9d86feb-a673-362d-b3a6-8c1a0d300065
+2021-08-18 16:59:06 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:59:06 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:59:06 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 16:59:06 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 16:59:06 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 16:59:07 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 16:59:08 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 16:59:08 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 16:59:08 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 16:59:08 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 16:59:09 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 16:59:09 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.446 seconds (JVM running for 6.448)
+2021-08-18 16:59:09 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 16:59:37 INFO  reactor-http-nio-7 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 16:59:37 INFO  reactor-http-nio-7 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-system instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-system,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 16:59:37 INFO  reactor-http-nio-7 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 16:59:37 INFO  reactor-http-nio-7 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-system initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-system,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@1f86e7be
+2021-08-18 17:00:08 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-system.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:00:09 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:09.366554200
+2021-08-18 17:00:09 INFO  reactor-http-nio-8 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:00:09 INFO  reactor-http-nio-8 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 17:00:09 INFO  reactor-http-nio-8 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 17:00:09 INFO  reactor-http-nio-8 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:00:09 INFO  reactor-http-nio-8 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[192.168.1.216:1600],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1600;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@2d03d2d0
+2021-08-18 17:00:09 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:09.422478400
+2021-08-18 17:00:10 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:10.127449
+2021-08-18 17:00:10 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:10.137444800
+2021-08-18 17:00:10 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:00:10 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:10.898136600
+2021-08-18 17:00:10 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:10.909131300
+2021-08-18 17:00:11 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:11.594049200
+2021-08-18 17:00:11 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:11.601045300
+2021-08-18 17:00:12 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:12.373390400
+2021-08-18 17:00:12 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:12.380376100
+2021-08-18 17:00:13 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:13.042494900
+2021-08-18 17:00:13 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:13.052497300
+2021-08-18 17:00:13 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:13.617321500
+2021-08-18 17:00:13 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:13.625313200
+2021-08-18 17:00:14 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:14.939250600
+2021-08-18 17:00:14 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:14.948245500
+2021-08-18 17:00:29 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/system/info --> 目标服务：system_routh，目标地址：http://192.168.1.216:1701/info，转发时间：2021-08-18T17:00:29.723171900
+2021-08-18 17:00:29 INFO  reactor-http-nio-1 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:00:29.738178100
+2021-08-18 17:11:30 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:30.073743800
+2021-08-18 17:11:32 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:32.175200200
+2021-08-18 17:11:32 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:32.615438100
+2021-08-18 17:11:32 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:32.815429100
+2021-08-18 17:11:32 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:32.975427900
+2021-08-18 17:11:33 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:33.143428200
+2021-08-18 17:11:33 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:33.303289200
+2021-08-18 17:11:33 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:33.471385100
+2021-08-18 17:11:33 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:33.647733100
+2021-08-18 17:11:33 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:33.823429300
+2021-08-18 17:11:33 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:33.984431500
+2021-08-18 17:11:34 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:34.168016400
+2021-08-18 17:11:34 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:34.343438500
+2021-08-18 17:11:34 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:34.503852900
+2021-08-18 17:11:34 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:34.687193
+2021-08-18 17:11:34 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:34.870941200
+2021-08-18 17:11:35 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:35.055385500
+2021-08-18 17:11:35 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:35.247361800
+2021-08-18 17:11:35 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:35.423402100
+2021-08-18 17:11:35 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:35.606988200
+2021-08-18 17:11:35 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:35.791428700
+2021-08-18 17:11:35 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:35.967386900
+2021-08-18 17:11:36 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:36.137645900
+2021-08-18 17:11:36 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:36.304983600
+2021-08-18 17:11:36 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:36.614926800
+2021-08-18 17:11:36 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:36.775389900
+2021-08-18 17:11:36 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:36.959433800
+2021-08-18 17:11:37 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:11:37.137497500
+2021-08-18 17:12:09 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:12:09.919901200
+2021-08-18 17:14:26 INFO  Thread-33 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 17:14:26 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:14:26 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 17:14:26 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:14:26 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 17:14:52 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:14:53 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=85e731e5-109b-331c-847c-01cc6f2b963b
+2021-08-18 17:14:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:14:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:14:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:14:54 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:14:54 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:14:56 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:14:56 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:14:56 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:14:56 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 17:14:58 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 17:14:58 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 17:14:58 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 7.804 seconds (JVM running for 9.685)
+2021-08-18 17:14:59 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 17:16:24 INFO  reactor-http-nio-5 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:16:24 INFO  reactor-http-nio-5 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 17:16:24 INFO  reactor-http-nio-5 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 17:16:24 INFO  reactor-http-nio-5 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:16:24 INFO  reactor-http-nio-5 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[192.168.1.216:1600],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1600;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@6b0dbab4
+2021-08-18 17:16:24 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:16:24.371512
+2021-08-18 17:16:25 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:17:11 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:11.832957300
+2021-08-18 17:17:12 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:12.216520800
+2021-08-18 17:17:12 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:12.409597
+2021-08-18 17:17:12 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:12.584544200
+2021-08-18 17:17:12 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:12.760930800
+2021-08-18 17:17:12 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:12.912144500
+2021-08-18 17:17:13 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:13.072713500
+2021-08-18 17:17:13 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:13.240721800
+2021-08-18 17:17:13 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:13.409952
+2021-08-18 17:17:52 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:17:52.884903500
+2021-08-18 17:21:19 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:19.965900500
+2021-08-18 17:21:37 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:37.754920700
+2021-08-18 17:21:37 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:37.754920700
+2021-08-18 17:21:37 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:37.756919300
+2021-08-18 17:21:37 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:37.758919700
+2021-08-18 17:21:37 INFO  reactor-http-nio-1 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:37.763915900
+2021-08-18 17:21:37 INFO  reactor-http-nio-5 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:37.764915
+2021-08-18 17:21:41 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:41.968429700
+2021-08-18 17:21:46 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:46.407775500
+2021-08-18 17:21:47 INFO  reactor-http-nio-2 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:21:47.136057700
+2021-08-18 17:21:50 INFO  Thread-34 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 17:21:50 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:21:50 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 17:21:50 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:21:50 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 17:22:07 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:22:08 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=85e731e5-109b-331c-847c-01cc6f2b963b
+2021-08-18 17:22:08 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:22:08 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:22:08 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:22:08 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:22:08 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:22:09 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:22:09 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:22:09 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:22:09 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 17:22:10 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 17:22:11 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 17:22:11 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.449 seconds (JVM running for 6.518)
+2021-08-18 17:22:11 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 17:23:18 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:23:18 INFO  reactor-http-nio-6 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 17:23:18 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 17:23:18 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:23:18 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[192.168.1.216:1600],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1600;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@1deb9689
+2021-08-18 17:23:18 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:18.234451400
+2021-08-18 17:23:19 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:23:30 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:30.849417100
+2021-08-18 17:23:44 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:44.286393800
+2021-08-18 17:23:44 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:44.409050300
+2021-08-18 17:23:44 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:44.542354100
+2021-08-18 17:23:44 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:44.678970900
+2021-08-18 17:23:44 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:44.804502
+2021-08-18 17:23:44 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:44.941026
+2021-08-18 17:23:45 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:45.072363400
+2021-08-18 17:23:45 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:23:45.192017300
+2021-08-18 17:26:03 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:03 INFO  reactor-http-nio-6 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-test instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 17:26:03 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 17:26:03 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:03 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-test initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-test,current list of Servers=[192.168.1.216:1801],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1801;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@764da312
+2021-08-18 17:26:03 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/test/hello --> 目标服务：test_routh，目标地址：http://192.168.1.216:1801/hello，转发时间：2021-08-18T17:26:03.647467
+2021-08-18 17:26:04 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:14 INFO  Thread-34 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 17:26:14 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:26:14 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 17:26:14 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:26:14 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 17:26:29 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:26:30 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=85e731e5-109b-331c-847c-01cc6f2b963b
+2021-08-18 17:26:30 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:26:30 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:26:30 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:26:30 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:26:30 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:26:31 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:26:31 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:26:31 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:26:32 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 17:26:32 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 17:26:33 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 17:26:33 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.509 seconds (JVM running for 6.535)
+2021-08-18 17:26:33 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 17:26:43 INFO  reactor-http-nio-7 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:43 INFO  reactor-http-nio-7 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-test instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 17:26:43 INFO  reactor-http-nio-7 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 17:26:43 INFO  reactor-http-nio-7 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:43 INFO  reactor-http-nio-7 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-test initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-test,current list of Servers=[192.168.1.216:1801],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1801;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@7f4cb2c7
+2021-08-18 17:26:43 INFO  reactor-http-nio-7 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/test/hello --> 目标服务：test_routh，目标地址：http://192.168.1.216:1801/hello，转发时间：2021-08-18T17:26:43.238114500
+2021-08-18 17:26:43 INFO  reactor-http-nio-8 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:43 INFO  reactor-http-nio-8 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 17:26:43 INFO  reactor-http-nio-8 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 17:26:43 INFO  reactor-http-nio-8 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:43 INFO  reactor-http-nio-8 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[192.168.1.216:1600],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1600;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@5aaa9e49
+2021-08-18 17:26:43 INFO  reactor-http-nio-8 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:26:43.305076700
+2021-08-18 17:26:44 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:26:44 INFO  PollingServerListUpdater-1 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:27:09 INFO  reactor-http-nio-1 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/user --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/user，转发时间：2021-08-18T17:27:09.344456900
+2021-08-18 17:35:13 INFO  Thread-32 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 17:35:13 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:35:13 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 17:35:13 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:35:13 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 17:35:38 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:35:39 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=85e731e5-109b-331c-847c-01cc6f2b963b
+2021-08-18 17:35:39 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:35:39 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:35:39 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:35:40 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:35:40 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:35:41 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:35:41 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:35:41 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:35:41 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-18 17:35:42 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 88
+2021-08-18 17:35:43 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:88 register finished
+2021-08-18 17:35:43 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 6.9 seconds (JVM running for 8.31)
+2021-08-18 17:35:43 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 047dd8f250c1
+2021-08-18 17:37:27 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:37:27 INFO  reactor-http-nio-6 com.netflix.loadbalancer.BaseLoadBalancer Client: nstr-auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-08-18 17:37:27 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2021-08-18 17:37:27 INFO  reactor-http-nio-6 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:37:27 INFO  reactor-http-nio-6 com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client nstr-auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=nstr-auth,current list of Servers=[192.168.1.216:1600],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.1.216:1600;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@227e4b2a
+2021-08-18 17:37:27 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/captcha --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/captcha，转发时间：2021-08-18T17:37:27.092545300
+2021-08-18 17:37:28 INFO  PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: nstr-auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-08-18 17:37:33 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/oauth/token --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/oauth/token，转发时间：2021-08-18T17:37:33.279429400
+2021-08-18 17:37:43 INFO  reactor-http-nio-6 com.nstr.gateway.filter.NstrGatewayRequestFilter 转发请求：http://localhost:88/auth/oauth/token --> 目标服务：auth_routh，目标地址：http://192.168.1.216:1600/oauth/token，转发时间：2021-08-18T17:37:43.611076200
+2021-08-18 17:41:55 INFO  Thread-34 com.netflix.loadbalancer.PollingServerListUpdater Shutting down the Executor Pool for PollingServerListUpdater
+2021-08-18 17:41:55 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:41:55 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-18 17:41:55 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:41:55 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 17:56:22 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-18 17:56:22 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-18 17:56:25 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2021-08-18 17:56:25 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:56:26 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-18 17:56:26 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-18 17:56:26 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2021-08-18 17:56:26 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=d36fc154-1546-3c6d-a37c-c4b8922f0200
+2021-08-18 17:56:26 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:56:26 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:56:26 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:56:26 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:56:26 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:56:27 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:56:27 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:56:27 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2021-08-18 17:56:27 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:56:28 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:56:28 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:56:28 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8080
+2021-08-18 17:56:29 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 8.636 seconds (JVM running for 9.711)
+2021-08-18 17:56:29 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-localhost_8848] [subscribe] null.properties+DEFAULT_GROUP
+2021-08-18 17:56:29 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=null.properties, group=DEFAULT_GROUP, cnt=1
+2021-08-18 17:56:39 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:56:39 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:56:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-08-18 17:56:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-08-18 17:56:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-08-18 17:56:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialWatcher [null] CredentialWatcher is stopped
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialService [null] CredentialService is freed
+2021-08-18 17:56:42 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-08-18 17:57:24 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-18 17:57:24 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-18 17:57:27 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2021-08-18 17:57:27 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:57:28 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-18 17:57:28 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-18 17:57:28 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2021-08-18 17:57:28 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=d36fc154-1546-3c6d-a37c-c4b8922f0200
+2021-08-18 17:57:28 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:57:28 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:57:28 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:57:28 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:57:28 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:57:29 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:57:29 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:57:29 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2021-08-18 17:57:29 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:57:29 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:57:30 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:57:30 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8080
+2021-08-18 17:57:31 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 8.619 seconds (JVM running for 9.627)
+2021-08-18 17:57:31 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-localhost_8848] [subscribe] null.properties+DEFAULT_GROUP
+2021-08-18 17:57:31 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=null.properties, group=DEFAULT_GROUP, cnt=1
+2021-08-18 17:57:36 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:57:36 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:57:36 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-08-18 17:57:36 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-08-18 17:57:36 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-08-18 17:57:36 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialWatcher [null] CredentialWatcher is stopped
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialService [null] CredentialService is freed
+2021-08-18 17:57:39 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-08-18 17:58:06 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-18 17:58:06 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-18 17:58:09 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2021-08-18 17:58:09 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:58:10 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-18 17:58:10 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-18 17:58:10 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2021-08-18 17:58:10 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=d36fc154-1546-3c6d-a37c-c4b8922f0200
+2021-08-18 17:58:10 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:58:10 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:58:10 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:58:10 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:58:10 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:58:11 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:58:11 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:58:11 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2021-08-18 17:58:11 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:58:12 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:58:12 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:58:13 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8080
+2021-08-18 17:58:13 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 8.627 seconds (JVM running for 9.634)
+2021-08-18 17:58:13 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-localhost_8848] [subscribe] null.properties+DEFAULT_GROUP
+2021-08-18 17:58:13 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=null.properties, group=DEFAULT_GROUP, cnt=1
+2021-08-18 17:58:13 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:58:13 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 17:58:13 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-08-18 17:58:13 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-08-18 17:58:13 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-08-18 17:58:13 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-08-18 17:58:16 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-08-18 17:58:16 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-08-18 17:58:19 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-08-18 17:58:19 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-08-18 17:58:19 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-08-18 17:58:19 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialWatcher [null] CredentialWatcher is stopped
+2021-08-18 17:58:19 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialService [null] CredentialService is freed
+2021-08-18 17:58:19 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-08-18 17:58:52 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-18 17:58:52 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-18 17:58:52 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2021-08-18 17:58:52 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 17:58:53 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-18 17:58:53 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-18 17:58:53 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2021-08-18 17:58:53 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=d36fc154-1546-3c6d-a37c-c4b8922f0200
+2021-08-18 17:58:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:58:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:58:53 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 17:58:53 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:58:53 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 17:58:54 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 17:58:55 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:58:55 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2021-08-18 17:58:55 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 17:58:55 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-18 17:58:55 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 17:58:56 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8080
+2021-08-18 17:58:56 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.643 seconds (JVM running for 6.659)
+2021-08-18 17:58:56 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] null.properties+DEFAULT_GROUP
+2021-08-18 17:58:56 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=null.properties, group=DEFAULT_GROUP, cnt=1
+2021-08-18 18:01:06 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 18:01:06 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 18:01:06 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-08-18 18:01:06 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-08-18 18:01:06 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-08-18 18:01:06 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialWatcher [null] CredentialWatcher is stopped
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialService [null] CredentialService is freed
+2021-08-18 18:01:09 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-08-18 18:01:47 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-18 18:01:47 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-18 18:01:47 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-null.properties,DEFAULT_GROUP'}]
+2021-08-18 18:01:47 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 18:01:47 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-18 18:01:47 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-18 18:01:47 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2021-08-18 18:01:47 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=d36fc154-1546-3c6d-a37c-c4b8922f0200
+2021-08-18 18:01:47 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:01:47 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:01:47 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:01:48 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 18:01:48 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 18:01:49 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 18:01:49 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 18:01:49 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2021-08-18 18:01:49 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 18:01:49 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-18 18:01:49 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 18:01:50 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8080
+2021-08-18 18:01:50 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.576 seconds (JVM running for 6.544)
+2021-08-18 18:01:50 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] null.properties+DEFAULT_GROUP
+2021-08-18 18:01:50 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=null.properties, group=DEFAULT_GROUP, cnt=1
+2021-08-18 18:01:55 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 18:01:55 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 18:01:55 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-08-18 18:01:55 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-08-18 18:01:55 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-08-18 18:01:55 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-08-18 18:01:58 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-08-18 18:01:58 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-08-18 18:01:59 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-08-18 18:01:59 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-08-18 18:01:59 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-08-18 18:01:59 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialWatcher [null] CredentialWatcher is stopped
+2021-08-18 18:01:59 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialService [null] CredentialService is freed
+2021-08-18 18:01:59 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-08-18 18:04:20 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-18 18:04:20 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-18 18:04:20 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-nstr-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-nstr-gateway,DEFAULT_GROUP'}]
+2021-08-18 18:04:20 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 18:04:21 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-18 18:04:21 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-18 18:04:21 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2021-08-18 18:04:21 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=d36fc154-1546-3c6d-a37c-c4b8922f0200
+2021-08-18 18:04:21 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:04:21 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:04:21 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:04:22 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 18:04:22 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 18:04:23 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 18:04:23 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 18:04:23 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2021-08-18 18:04:23 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 18:04:23 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-18 18:04:23 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 18:04:24 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8080
+2021-08-18 18:04:24 INFO  com.alibaba.nacos.naming.push.receiver com.alibaba.nacos.client.naming received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@nstr-gateway\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1629281064708,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":2963633216586888} from /192.168.1.10
+2021-08-18 18:04:24 INFO  main com.alibaba.nacos.client.naming [BEAT] adding beat: BeatInfo{port=8080, ip='192.168.1.216', weight=1.0, serviceName='DEFAULT_GROUP@@nstr-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2021-08-18 18:04:24 INFO  main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@nstr-gateway with instance: Instance{instanceId='null', ip='192.168.1.216', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2021-08-18 18:04:24 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:8080 register finished
+2021-08-18 18:04:24 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.634 seconds (JVM running for 6.609)
+2021-08-18 18:04:24 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] nstr-gateway+DEFAULT_GROUP
+2021-08-18 18:04:24 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=nstr-gateway, group=DEFAULT_GROUP, cnt=1
+2021-08-18 18:04:24 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] nstr-gateway.properties+DEFAULT_GROUP
+2021-08-18 18:04:24 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=nstr-gateway.properties, group=DEFAULT_GROUP, cnt=1
+2021-08-18 18:04:25 INFO  com.alibaba.nacos.client.naming.updater com.alibaba.nacos.client.naming new ips(1) service: DEFAULT_GROUP@@nstr-gateway@@DEFAULT -> [{"instanceId":"192.168.1.216#8080#DEFAULT#DEFAULT_GROUP@@nstr-gateway","ip":"192.168.1.216","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nstr-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2021-08-18 18:04:25 INFO  com.alibaba.nacos.client.naming.updater com.alibaba.nacos.client.naming current ips:(1) service: DEFAULT_GROUP@@nstr-gateway@@DEFAULT -> [{"instanceId":"192.168.1.216#8080#DEFAULT#DEFAULT_GROUP@@nstr-gateway","ip":"192.168.1.216","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nstr-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2021-08-18 18:04:25 INFO  com.alibaba.nacos.naming.push.receiver com.alibaba.nacos.client.naming received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@nstr-gateway\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.1.216#8080#DEFAULT#DEFAULT_GROUP@@nstr-gateway\",\"ip\":\"192.168.1.216\",\"port\":8080,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@nstr-gateway\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1629281065409,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":2963633917075980} from /192.168.1.10
+2021-08-18 18:04:45 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 18:04:45 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-18 18:04:45 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming [BEAT] removing beat: DEFAULT_GROUP@@nstr-gateway:192.168.1.216:8080 from beat map.
+2021-08-18 18:04:45 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@nstr-gateway with instance: Instance{instanceId='null', ip='192.168.1.216', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2021-08-18 18:04:45 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-18 18:04:45 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2021-08-18 18:04:46 INFO  com.alibaba.nacos.naming.push.receiver com.alibaba.nacos.client.naming received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@nstr-gateway\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1629281086022,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":2963654530388409} from /192.168.1.10
+2021-08-18 18:04:46 INFO  com.alibaba.nacos.naming.push.receiver com.alibaba.nacos.client.naming removed ips(1) service: DEFAULT_GROUP@@nstr-gateway@@DEFAULT -> [{"instanceId":"192.168.1.216#8080#DEFAULT#DEFAULT_GROUP@@nstr-gateway","ip":"192.168.1.216","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nstr-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2021-08-18 18:04:46 INFO  com.alibaba.nacos.naming.push.receiver com.alibaba.nacos.client.naming current ips:(0) service: DEFAULT_GROUP@@nstr-gateway@@DEFAULT -> []
+2021-08-18 18:04:48 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2021-08-18 18:04:48 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2021-08-18 18:04:51 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialWatcher [null] CredentialWatcher is stopped
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.identify.CredentialService [null] CredentialService is freed
+2021-08-18 18:04:54 INFO  SpringContextShutdownHook com.alibaba.nacos.client.naming com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2021-08-18 18:06:32 INFO  main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2021-08-18 18:06:32 INFO  main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2021-08-18 18:06:32 INFO  main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: [BootstrapPropertySource {name='bootstrapProperties-nstr-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-nstr-gateway,DEFAULT_GROUP'}]
+2021-08-18 18:06:32 INFO  main com.nstr.gateway.NstrGatewayApplication No active profile set, falling back to default profiles: default
+2021-08-18 18:06:32 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=a8dd5b1a-ef20-3c90-9e42-4d38f3b56ba8
+2021-08-18 18:06:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:06:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:06:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18 18:06:33 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 18:06:33 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBody]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2021-08-18 18:06:34 INFO  main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-08-18 18:06:34 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 18:06:34 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2021-08-18 18:06:34 INFO  main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2021-08-18 18:06:34 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-18 18:06:34 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-18 18:06:35 INFO  main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8080
+2021-08-18 18:06:35 INFO  com.alibaba.nacos.naming.push.receiver com.alibaba.nacos.client.naming received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@nstr-gateway\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1629281195493,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":2963764001747334} from /192.168.1.10
+2021-08-18 18:06:35 INFO  main com.alibaba.nacos.client.naming [BEAT] adding beat: BeatInfo{port=8080, ip='192.168.1.216', weight=1.0, serviceName='DEFAULT_GROUP@@nstr-gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2021-08-18 18:06:35 INFO  main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@nstr-gateway with instance: Instance{instanceId='null', ip='192.168.1.216', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2021-08-18 18:06:35 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-gateway 192.168.1.216:8080 register finished
+2021-08-18 18:06:35 INFO  main com.nstr.gateway.NstrGatewayApplication Started NstrGatewayApplication in 5.338 seconds (JVM running for 6.307)
+2021-08-18 18:06:35 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] nstr-gateway+DEFAULT_GROUP
+2021-08-18 18:06:35 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=nstr-gateway, group=DEFAULT_GROUP, cnt=1
+2021-08-18 18:06:35 INFO  main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-192.168.1.10_8848] [subscribe] nstr-gateway.properties+DEFAULT_GROUP
+2021-08-18 18:06:35 INFO  main com.alibaba.nacos.client.config.impl.CacheData [fixed-192.168.1.10_8848] [add-listener] ok, tenant=, dataId=nstr-gateway.properties, group=DEFAULT_GROUP, cnt=1
+2021-08-18 18:06:35 INFO  com.alibaba.nacos.client.naming.updater com.alibaba.nacos.client.naming new ips(1) service: DEFAULT_GROUP@@nstr-gateway@@DEFAULT -> [{"instanceId":"192.168.1.216#8080#DEFAULT#DEFAULT_GROUP@@nstr-gateway","ip":"192.168.1.216","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nstr-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2021-08-18 18:06:36 INFO  com.alibaba.nacos.client.naming.updater com.alibaba.nacos.client.naming current ips:(1) service: DEFAULT_GROUP@@nstr-gateway@@DEFAULT -> [{"instanceId":"192.168.1.216#8080#DEFAULT#DEFAULT_GROUP@@nstr-gateway","ip":"192.168.1.216","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nstr-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2021-08-18 18:06:36 INFO  com.alibaba.nacos.naming.push.receiver com.alibaba.nacos.client.naming received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@nstr-gateway\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.1.216#8080#DEFAULT#DEFAULT_GROUP@@nstr-gateway\",\"ip\":\"192.168.1.216\",\"port\":8080,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@nstr-gateway\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1629281196294,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":2963764802252831} from /192.168.1.10

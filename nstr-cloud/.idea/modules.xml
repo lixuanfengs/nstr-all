@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../nstr-apm/nstr-admin/nstr-admin.iml" filepath="$PROJECT_DIR$/../nstr-apm/nstr-admin/nstr-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-apm/nstr-apm.iml" filepath="$PROJECT_DIR$/../nstr-apm/nstr-apm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-auth/nstr-auth.iml" filepath="$PROJECT_DIR$/../nstr-auth/nstr-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nstr-cloud.iml" filepath="$PROJECT_DIR$/nstr-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-common/nstr-common.iml" filepath="$PROJECT_DIR$/../nstr-common/nstr-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-common/nstr-common-core/nstr-common-core.iml" filepath="$PROJECT_DIR$/../nstr-common/nstr-common-core/nstr-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-common/nstr-common-security-starter/nstr-common-security-starter.iml" filepath="$PROJECT_DIR$/../nstr-common/nstr-common-security-starter/nstr-common-security-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-gateway/nstr-gateway.iml" filepath="$PROJECT_DIR$/../nstr-gateway/nstr-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-server/nstr-instrument/nstr-instrument.iml" filepath="$PROJECT_DIR$/../nstr-server/nstr-instrument/nstr-instrument.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-server/nstr-search/nstr-search.iml" filepath="$PROJECT_DIR$/../nstr-server/nstr-search/nstr-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-server/nstr-server.iml" filepath="$PROJECT_DIR$/../nstr-server/nstr-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-server/nstr-system/nstr-system.iml" filepath="$PROJECT_DIR$/../nstr-server/nstr-system/nstr-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-server/nstr-test/nstr-test.iml" filepath="$PROJECT_DIR$/../nstr-server/nstr-test/nstr-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nstr-server/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/../nstr-server/renren-generator/renren-generator.iml" />
+    </modules>
+  </component>
+</project>

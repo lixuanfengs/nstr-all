@@ -1,0 +1,619 @@
+2021-08-16 09:56:20 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 09:56:20 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 09:56:20 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 09:56:20 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 09:56:28 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 09:56:28 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 09:56:28 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 09:56:28 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 09:56:28 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 09:57:02 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 09:57:04 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=70a02f17-a281-3c0c-bbfe-4f23d905ec6c
+2021-08-16 09:57:04 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 09:57:04 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8c46661d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 09:57:04 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 09:57:04 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@14201a90' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 09:57:04 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 09:57:05 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 09:57:05 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 09:57:05 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 09:57:05 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 09:57:05 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 09:57:05 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2385 ms
+2021-08-16 09:57:05 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 09:57:05 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@13d5606c
+2021-08-16 09:57:05 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 09:57:05 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 09:57:05 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 09:57:05 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 09:57:07 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 09:57:07 INFO  main com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 09:57:07 INFO  main com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 09:57:07 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 09:57:07 INFO  main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2021-08-16 09:57:07 INFO  main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-16 10:01:18 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 10:01:19 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=70a02f17-a281-3c0c-bbfe-4f23d905ec6c
+2021-08-16 10:01:19 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:01:19 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$572000e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:01:19 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:01:19 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@61c4cebd' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:01:19 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:01:20 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 10:01:20 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:01:20 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 10:01:20 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 10:01:20 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 10:01:20 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1795 ms
+2021-08-16 10:01:20 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:01:20 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5a9051fd
+2021-08-16 10:01:20 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 10:01:21 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 10:01:21 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 10:01:21 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 10:01:22 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 10:01:22 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 10:01:23 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 10:01:23 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:01:23 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:01:23 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:01:23 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 10:01:23 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: f994d24b-fbbb-4f92-837f-a3b5840b0bd5
+
+2021-08-16 10:01:23 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57fe6f2d, org.springframework.security.web.context.SecurityContextPersistenceFilter@72dc7f0a, org.springframework.security.web.header.HeaderWriterFilter@203ba07, org.springframework.security.web.authentication.logout.LogoutFilter@6e2764c9, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@123a21ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10cf3e4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78977b59, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e43c01f, org.springframework.security.web.session.SessionManagementFilter@df0b348, org.springframework.security.web.access.ExceptionTranslationFilter@756b703d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d00241b]
+2021-08-16 10:01:24 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:01:24 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 10:01:24 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 10:01:24 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 10:01:24 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 10:01:24 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 10:01:24 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 10:01:24 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 7.921 seconds (JVM running for 9.023)
+2021-08-16 10:01:24 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 10:01:25 INFO  http-nio-1701-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 10:01:25 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 10:01:25 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2021-08-16 10:22:56 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:22:56 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 10:22:56 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 10:22:56 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 10:23:03 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:23:03 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 10:23:03 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 10:23:03 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 10:23:03 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 10:23:16 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 10:23:18 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69b57b66-9fb0-3971-9157-6b552ad6b91b
+2021-08-16 10:23:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:23:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f98b5a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:23:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:23:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@56872fcb' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:23:18 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:23:19 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 10:23:19 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:23:19 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 10:23:19 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 10:23:19 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 10:23:19 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3016 ms
+2021-08-16 10:23:19 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:23:19 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@24c84e65
+2021-08-16 10:23:20 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 10:23:20 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 10:23:20 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 10:23:20 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 10:23:24 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 10:23:24 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 10:23:24 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 10:23:24 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:23:24 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:23:25 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:23:25 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 10:23:25 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: a441af69-c133-4266-b0c8-336a2934c755
+
+2021-08-16 10:23:26 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@581f1f40, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c883b3f, org.springframework.security.web.header.HeaderWriterFilter@6e95c023, org.springframework.security.web.authentication.logout.LogoutFilter@62b8dd6a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3577e37c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6441da2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c070e78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52b2c255, org.springframework.security.web.session.SessionManagementFilter@77732366, org.springframework.security.web.access.ExceptionTranslationFilter@5c168f98, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cfb462]
+2021-08-16 10:23:27 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:23:27 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 10:23:27 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 10:23:27 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 10:23:27 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 10:23:27 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 10:23:28 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 10:23:28 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 10:23:28 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 13.535 seconds (JVM running for 14.903)
+2021-08-16 10:23:28 INFO  RMI TCP Connection(4)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 10:23:28 INFO  RMI TCP Connection(4)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 10:23:28 INFO  RMI TCP Connection(4)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 25 ms
+2021-08-16 10:23:30 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 10:31:00 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:31:00 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 10:31:00 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 10:31:00 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 10:31:05 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:31:05 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 10:31:05 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 10:31:05 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 10:31:05 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 10:31:13 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 10:31:15 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69b57b66-9fb0-3971-9157-6b552ad6b91b
+2021-08-16 10:31:15 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:31:15 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f98b5a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:31:15 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:31:15 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@56872fcb' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:31:15 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:31:16 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 10:31:16 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:31:16 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 10:31:16 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 10:31:16 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 10:31:16 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3204 ms
+2021-08-16 10:31:16 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:31:16 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@24c84e65
+2021-08-16 10:31:17 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 10:31:17 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 10:31:17 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 10:31:17 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 10:31:20 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 10:31:21 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 10:31:21 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 10:31:21 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:31:21 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:31:21 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:31:21 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 10:31:22 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: f2c314cf-638d-488b-9642-8c1f0f2afbf0
+
+2021-08-16 10:31:22 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cfb462, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d0cc47d, org.springframework.security.web.header.HeaderWriterFilter@7018636a, org.springframework.security.web.authentication.logout.LogoutFilter@c50503e, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@4be6531a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57fe6f2d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a47a011, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54418834, org.springframework.security.web.session.SessionManagementFilter@f6b128b, org.springframework.security.web.access.ExceptionTranslationFilter@11eb8842, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a6fc2e1]
+2021-08-16 10:31:23 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:31:23 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 10:31:23 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 10:31:23 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 10:31:23 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 10:31:23 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 10:31:24 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 10:31:24 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 10:31:24 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 13.372 seconds (JVM running for 15.149)
+2021-08-16 10:31:24 INFO  RMI TCP Connection(3)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 10:31:24 INFO  RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 10:31:24 INFO  RMI TCP Connection(3)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 23 ms
+2021-08-16 10:31:25 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 10:33:16 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:33:16 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 10:33:16 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 10:33:16 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 10:33:24 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:33:24 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 10:33:24 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 10:33:24 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 10:33:24 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 10:33:32 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 10:33:33 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69b57b66-9fb0-3971-9157-6b552ad6b91b
+2021-08-16 10:33:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:33:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3da6534] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:33:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:33:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@41059616' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:33:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:33:33 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 10:33:33 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:33:33 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 10:33:33 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 10:33:33 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 10:33:33 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1818 ms
+2021-08-16 10:33:34 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:33:34 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4535bdc6
+2021-08-16 10:33:34 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 10:33:34 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 10:33:34 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 10:33:34 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 10:33:36 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 10:33:36 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 10:33:36 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 10:33:36 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:33:36 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:33:36 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:33:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 10:33:37 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: c6dd3951-d7ec-4555-ba40-e130f8d522fd
+
+2021-08-16 10:33:37 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18f8c76d, org.springframework.security.web.context.SecurityContextPersistenceFilter@61b11d35, org.springframework.security.web.header.HeaderWriterFilter@365fde74, org.springframework.security.web.authentication.logout.LogoutFilter@28592982, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@60f6d689, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b0df349, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@639c5ab4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383d2e2d, org.springframework.security.web.session.SessionManagementFilter@a47a011, org.springframework.security.web.access.ExceptionTranslationFilter@3582077c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d21a69f]
+2021-08-16 10:33:37 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:33:37 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 10:33:37 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 10:33:38 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 10:33:38 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 10:33:38 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 10:33:38 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 10:33:38 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 10:33:38 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 7.971 seconds (JVM running for 9.185)
+2021-08-16 10:33:38 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 10:33:38 INFO  http-nio-1701-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 10:33:38 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 10:33:38 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2021-08-16 10:43:15 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:43:15 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 10:43:15 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 10:43:15 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 10:43:24 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:43:24 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 10:43:24 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 10:43:24 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 10:43:24 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 10:43:32 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 10:43:33 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69b57b66-9fb0-3971-9157-6b552ad6b91b
+2021-08-16 10:43:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:43:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f98b5a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:43:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:43:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@56872fcb' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:43:33 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:43:34 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 10:43:34 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:43:34 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 10:43:34 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 10:43:34 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 10:43:34 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1884 ms
+2021-08-16 10:43:34 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:43:34 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@24c84e65
+2021-08-16 10:43:34 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 10:43:35 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 10:43:35 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 10:43:35 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 10:43:37 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 10:43:37 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 10:43:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 10:43:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:43:37 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:43:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:43:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 10:43:37 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: fa014433-8adc-4f1d-a84e-2f543a2c2d51
+
+2021-08-16 10:43:37 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cd13fad, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d160056, org.springframework.security.web.header.HeaderWriterFilter@326489c4, org.springframework.security.web.authentication.logout.LogoutFilter@406cc81b, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@9abbe39, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17796f47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c1d25fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d41449a, org.springframework.security.web.session.SessionManagementFilter@674b9b85, org.springframework.security.web.access.ExceptionTranslationFilter@c50503e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39aaa7db]
+2021-08-16 10:43:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:43:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 10:43:38 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 10:43:38 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 10:43:38 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 10:43:38 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 10:43:38 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 10:43:38 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 10:43:38 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 8.27 seconds (JVM running for 9.598)
+2021-08-16 10:43:39 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 10:43:39 INFO  http-nio-1701-exec-3 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 10:43:39 INFO  http-nio-1701-exec-3 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 10:43:39 INFO  http-nio-1701-exec-3 org.springframework.web.servlet.DispatcherServlet Completed initialization in 14 ms
+2021-08-16 10:58:18 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:58:18 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 10:58:18 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 10:58:18 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 10:58:24 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:58:24 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 10:58:24 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 10:58:24 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 10:58:24 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 10:58:33 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 10:58:34 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69b57b66-9fb0-3971-9157-6b552ad6b91b
+2021-08-16 10:58:34 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:58:34 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f98b5a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:58:34 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:58:34 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@56872fcb' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:58:34 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 10:58:35 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 10:58:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:58:35 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 10:58:35 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 10:58:35 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 10:58:35 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1783 ms
+2021-08-16 10:58:35 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:58:35 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@24c84e65
+2021-08-16 10:58:35 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 10:58:35 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 10:58:35 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 10:58:35 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 10:58:37 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 10:58:37 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 10:58:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 10:58:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 10:58:37 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 10:58:38 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 10:58:38 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 10:58:38 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: bc925a6c-0531-41b6-9ce7-fc0c8a406108
+
+2021-08-16 10:58:38 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50cadbae, org.springframework.security.web.context.SecurityContextPersistenceFilter@a47a011, org.springframework.security.web.header.HeaderWriterFilter@3582077c, org.springframework.security.web.authentication.logout.LogoutFilter@758e6acd, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@16ac67e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61b11d35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63ead376, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d583602, org.springframework.security.web.session.SessionManagementFilter@7c046af, org.springframework.security.web.access.ExceptionTranslationFilter@2f98859a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54418834]
+2021-08-16 10:58:39 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 10:58:39 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 10:58:39 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 10:58:39 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 10:58:39 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 10:58:39 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 10:58:39 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 10:58:39 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 10:58:39 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 7.948 seconds (JVM running for 9.117)
+2021-08-16 10:58:39 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 10:58:39 INFO  http-nio-1701-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 10:58:39 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 10:58:39 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 11 ms
+2021-08-16 11:39:04 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 11:39:04 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 11:39:04 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 11:39:04 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 11:39:13 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 11:39:13 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 11:39:13 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 11:39:13 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 11:39:13 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 11:39:22 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 11:39:24 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69b57b66-9fb0-3971-9157-6b552ad6b91b
+2021-08-16 11:39:24 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 11:39:24 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f98b5a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 11:39:24 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 11:39:24 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@56872fcb' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 11:39:24 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 11:39:24 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 11:39:24 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 11:39:24 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 11:39:24 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 11:39:24 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 11:39:24 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1862 ms
+2021-08-16 11:39:24 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 11:39:24 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@24c84e65
+2021-08-16 11:39:25 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 11:39:25 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 11:39:25 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 11:39:25 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 11:39:27 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 11:39:27 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 11:39:27 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 11:39:27 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 11:39:27 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 11:39:27 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 11:39:28 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 11:39:28 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 55873480-ab1a-44d4-865c-8038b369f36b
+
+2021-08-16 11:39:28 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f4bc3ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@eb5471c, org.springframework.security.web.header.HeaderWriterFilter@2c555efb, org.springframework.security.web.authentication.logout.LogoutFilter@5a0b925a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@6c3830ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a90b5e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fdebe73, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2297c8bf, org.springframework.security.web.session.SessionManagementFilter@3577e37c, org.springframework.security.web.access.ExceptionTranslationFilter@6c79a7c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44a972b4]
+2021-08-16 11:39:28 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 11:39:28 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 11:39:28 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 11:39:29 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 11:39:29 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 11:39:29 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 11:39:29 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 11:39:29 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 11:39:29 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_3
+2021-08-16 11:39:29 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 8.354 seconds (JVM running for 9.523)
+2021-08-16 11:39:29 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 11:39:29 INFO  http-nio-1701-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 11:39:29 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 11:39:29 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2021-08-16 16:40:21 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 16:40:22 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 16:40:22 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 16:40:23 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 16:40:30 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 16:40:30 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 16:40:30 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 16:40:31 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 16:40:31 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 16:49:42 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 16:49:45 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69b57b66-9fb0-3971-9157-6b552ad6b91b
+2021-08-16 16:49:46 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 16:49:46 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$83343224] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 16:49:46 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 16:49:46 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1029cf9' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 16:49:46 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 16:49:46 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 16:49:46 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 16:49:46 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 16:49:46 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 16:49:47 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 16:49:47 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4519 ms
+2021-08-16 16:49:47 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 16:49:47 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4fe4503a
+2021-08-16 16:49:48 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 16:49:55 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 16:49:55 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 16:49:55 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 16:50:01 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 16:50:01 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 16:50:01 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 16:50:01 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 16:50:01 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 16:50:02 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 16:50:02 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 16:50:02 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 42e6a8ee-3cfa-4fc4-a841-2f6e373a7b8e
+
+2021-08-16 16:50:02 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e584f3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@12e8ea81, org.springframework.security.web.header.HeaderWriterFilter@77732366, org.springframework.security.web.authentication.logout.LogoutFilter@5b6637f3, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@60a4595e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@628d6320, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c50503e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f113867, org.springframework.security.web.session.SessionManagementFilter@639c5ab4, org.springframework.security.web.access.ExceptionTranslationFilter@6567de86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c3830ed]
+2021-08-16 16:50:03 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 16:50:03 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 16:50:03 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 16:50:03 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 16:50:03 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 16:50:03 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 16:50:04 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 16:50:04 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 16:50:04 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_3
+2021-08-16 16:50:04 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 24.551 seconds (JVM running for 26.136)
+2021-08-16 16:50:04 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 16:50:04 INFO  http-nio-1701-exec-2 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 16:50:04 INFO  http-nio-1701-exec-2 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 16:50:04 INFO  http-nio-1701-exec-2 org.springframework.web.servlet.DispatcherServlet Completed initialization in 22 ms
+2021-08-16 17:06:52 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 17:06:52 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 17:06:52 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 17:06:52 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 17:07:00 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 17:07:00 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 17:07:00 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 17:07:00 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 17:07:00 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 17:07:12 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 17:07:13 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=76089105-8079-3d28-aeaf-0afea16cf476
+2021-08-16 17:07:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:07:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ea58f05c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:07:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:07:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@195498aa' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:07:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:07:14 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 17:07:14 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 17:07:14 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 17:07:14 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 17:07:14 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 17:07:14 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2188 ms
+2021-08-16 17:07:14 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 17:07:14 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@aa23f11
+2021-08-16 17:07:15 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 17:07:15 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 17:07:15 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 17:07:15 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 17:07:18 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 17:07:18 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 17:07:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 17:07:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 17:07:18 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 17:07:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 17:07:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 17:07:18 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: e9b7734d-9071-4aea-a1cf-8761d49424cb
+
+2021-08-16 17:07:19 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d642682, org.springframework.security.web.context.SecurityContextPersistenceFilter@a6fc2e1, org.springframework.security.web.header.HeaderWriterFilter@504a9352, org.springframework.security.web.authentication.logout.LogoutFilter@5f113867, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7e113065, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f54fabc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54418834, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6afdb486, org.springframework.security.web.session.SessionManagementFilter@14b4f462, org.springframework.security.web.access.ExceptionTranslationFilter@264340f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61d7df22]
+2021-08-16 17:07:19 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 17:07:19 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 17:07:19 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 17:07:20 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 17:07:20 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 17:07:20 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 17:07:20 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 17:07:20 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 17:07:20 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_3
+2021-08-16 17:07:20 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_4
+2021-08-16 17:07:20 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 10.206 seconds (JVM running for 11.316)
+2021-08-16 17:07:21 INFO  RMI TCP Connection(10)-192.168.1.216 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 17:07:21 INFO  RMI TCP Connection(10)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 17:07:21 INFO  RMI TCP Connection(10)-192.168.1.216 org.springframework.web.servlet.DispatcherServlet Completed initialization in 19 ms
+2021-08-16 17:07:21 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 17:10:22 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 17:10:22 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 17:10:22 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 17:10:22 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 17:10:31 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 17:10:31 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 17:10:31 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 17:10:31 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 17:10:31 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 17:10:39 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 17:10:40 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=be0994cc-0b18-3332-aaba-86fbf260502c
+2021-08-16 17:10:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:10:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$30b00df3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:10:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:10:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5d3b6585' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:10:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 17:10:40 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 17:10:40 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 17:10:40 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 17:10:40 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 17:10:41 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 17:10:41 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2051 ms
+2021-08-16 17:10:41 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 17:10:41 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4604e051
+2021-08-16 17:10:41 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 17:10:41 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 17:10:41 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 17:10:41 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 17:10:44 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 17:10:44 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 17:10:44 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 17:10:44 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 17:10:44 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 17:10:44 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 17:10:44 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 17:10:44 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: e3a00c94-e8b5-4c23-925a-ed6f837bb7a1
+
+2021-08-16 17:10:44 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@542759f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fe152aa, org.springframework.security.web.header.HeaderWriterFilter@21553c3a, org.springframework.security.web.authentication.logout.LogoutFilter@5122387, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@420c9959, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fdebe73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@264340f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68ac6e6e, org.springframework.security.web.session.SessionManagementFilter@6d4bb60f, org.springframework.security.web.access.ExceptionTranslationFilter@11d474a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35129b9e]
+2021-08-16 17:10:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 17:10:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 17:10:45 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 17:10:45 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 17:10:45 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 17:10:45 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 17:10:46 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 17:10:46 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 17:10:46 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_3
+2021-08-16 17:10:46 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_4
+2021-08-16 17:10:46 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_5
+2021-08-16 17:10:46 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 9.149 seconds (JVM running for 10.318)
+2021-08-16 17:10:46 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 17:10:46 INFO  http-nio-1701-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 17:10:46 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 17:10:46 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 11 ms
+2021-08-16 18:03:15 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 18:03:15 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2021-08-16 18:03:15 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2021-08-16 18:03:15 INFO  SpringContextShutdownHook com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2021-08-16 18:03:23 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 18:03:23 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2021-08-16 18:03:23 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2021-08-16 18:03:23 INFO  SpringContextShutdownHook com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2021-08-16 18:03:23 INFO  SpringContextShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2021-08-16 18:03:52 INFO  main com.nstr.system.NstrSystemApplication No active profile set, falling back to default profiles: default
+2021-08-16 18:03:54 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=be0994cc-0b18-3332-aaba-86fbf260502c
+2021-08-16 18:03:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 18:03:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3a888aca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 18:03:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 18:03:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@29aa4bc9' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 18:03:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-16 18:03:54 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1701 (http)
+2021-08-16 18:03:54 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1701"]
+2021-08-16 18:03:54 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-16 18:03:54 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-16 18:03:55 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-16 18:03:55 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2941 ms
+2021-08-16 18:03:55 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 18:03:55 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5b74902c
+2021-08-16 18:03:55 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2021-08-16 18:03:55 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2021-08-16 18:03:55 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [base] success
+2021-08-16 18:03:55 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2021-08-16 18:03:57 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+2021-08-16 18:03:58 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-16 18:03:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2021-08-16 18:03:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'nstrAsyncThreadPool'
+2021-08-16 18:03:58 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-16 18:03:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2021-08-16 18:03:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2021-08-16 18:03:58 INFO  main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 1f8299c8-88f9-4e2c-9f39-078c1b158e4c
+
+2021-08-16 18:03:58 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9214725, org.springframework.security.web.context.SecurityContextPersistenceFilter@62b8dd6a, org.springframework.security.web.header.HeaderWriterFilter@6345dc06, org.springframework.security.web.authentication.logout.LogoutFilter@3bdf6d63, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@1cafb30, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10ecf244, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c79a7c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@289d9f0d, org.springframework.security.web.session.SessionManagementFilter@174e5929, org.springframework.security.web.access.ExceptionTranslationFilter@272cec71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6cb1da13]
+2021-08-16 18:03:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1701"]
+2021-08-16 18:03:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1701 (http) with context path ''
+2021-08-16 18:03:59 INFO  main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP nstr-system 192.168.1.216:1701 register finished
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_3
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_4
+2021-08-16 18:03:59 INFO  main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_5
+2021-08-16 18:03:59 INFO  main com.nstr.system.NstrSystemApplication Started NstrSystemApplication in 9.679 seconds (JVM running for 11.238)
+2021-08-16 18:04:00 INFO  registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e0b5ff47633b
+2021-08-16 18:04:00 INFO  http-nio-1701-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 18:04:00 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-16 18:04:00 INFO  http-nio-1701-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
