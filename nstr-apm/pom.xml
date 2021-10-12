@@ -10,10 +10,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nstr-monitor</artifactId>
+    <artifactId>nstr-npm</artifactId>
     <packaging>pom</packaging>
-    <name>Nstr-Monitor</name>
-    <description>Nstr-Monitor监控模块</description>
+    <name>Nstr-Npm</name>
+    <description>Nstr-Npm监控模块</description>
 
     <modules>
         <module>nstr-admin</module>
