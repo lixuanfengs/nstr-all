@@ -15,9 +15,9 @@
         <module>nstr-common-security-starter</module>
     </modules>
 
-    <artifactId>febs-common</artifactId>
+    <artifactId>nstr-common</artifactId>
     <version>2.2-RELEASE</version>
-    <name>FEBS-Common</name>
+    <name>NSTR-Common</name>
     <packaging>pom</packaging>
-    <description>FEBS-Common通用模块</description>
+    <description>NSTR-Common通用模块</description>
 </project>

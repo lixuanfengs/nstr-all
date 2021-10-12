@@ -11,6 +11,7 @@
 
     <artifactId>nstr-auth</artifactId>
     <name>nstr-auth</name>
+    <version>2.2-RELEASE</version>
     <description>仙人球认证服务器</description>
 
 

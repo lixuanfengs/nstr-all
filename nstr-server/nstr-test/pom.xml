@@ -13,6 +13,7 @@
 
     <artifactId>nstr-test</artifactId>
     <name>nstr-test</name>
+    <version>2.2-RELEASE</version>
     <description>仙人球微服务-测试资源服务</description>
 
 

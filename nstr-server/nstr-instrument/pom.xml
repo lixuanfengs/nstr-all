@@ -13,6 +13,7 @@
 
     <artifactId>nstr-instrument</artifactId>
     <name>nstr-instrument</name>
+    <version>2.2-RELEASE</version>
     <description>仙人球微服务-仪器统一管理模块</description>
 
 

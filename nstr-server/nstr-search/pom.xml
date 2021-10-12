@@ -13,6 +13,7 @@
 
     <artifactId>nstr-search</artifactId>
     <name>nstr-search</name>
+    <version>2.2-RELEASE</version>
     <description>仙人球微服务-检索项目</description>
 
     <properties>

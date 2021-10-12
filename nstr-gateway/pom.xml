@@ -12,6 +12,7 @@
 
     <artifactId>nstr-gateway</artifactId>
     <name>nstr-gateway</name>
+    <version>2.2-RELEASE</version>
     <description>仙人球网关配置项目</description>
 
     <properties>
